@@ -11,3 +11,8 @@ The web app includes:
 - Booking form with input validation
 - Fully responsive layout
 - Styled scrollbar and interactive buttons
+## How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/little-lemon.git
