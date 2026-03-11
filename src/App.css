@@ -29,15 +29,15 @@ main {
 }
 
 .card img {
-  width: 100%;         /* ocupă toată lățimea cardului */
-  height: 200px;       /* înălțime fixă uniformă */
-  object-fit: cover;   /* decupează/scalează imaginea fără deformare */
-  border-radius: 8px;  /* opțional, colțuri rotunjite */
+  width: 100%;        
+  height: 200px;       
+  object-fit: cover;   
+  border-radius: 8px;  
 }
 
 .card {
-  flex: 1;             /* toate cardurile iau același spațiu */
-  max-width: 300px;    /* optional, limitează lățimea */
+  flex: 1;            
+  max-width: 300px;  
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -46,7 +46,7 @@ main {
 /* Hero Section */
 .hero {
   display: flex;
-  flex-wrap: wrap;           /* permite să se reașeze pe mobil */
+  flex-wrap: wrap;           /*  mobile adjustment */
   justify-content: space-between;
   align-items: center;
   padding: 50px;
@@ -54,32 +54,32 @@ main {
 }
 
 .hero-image img {
-  width: 100%;              /* ocupă tot spațiul containerului */
-  max-width: 500px;         /* limitează lățimea imaginii */
-  height: auto;             /* păstrează proporțiile */
-  object-fit: cover;        /* nu deformează imaginea */
-  border-radius: 10px;      /* opțional, colțuri rotunjite */
+  width: 100%;             
+  max-width: 500px;         
+  height: auto;            
+  object-fit: cover;        
+  border-radius: 10px;      
 }
 
 .about-images {
-  position: relative;       /* container pentru suprapunere */
+  position: relative;      
   width: 100%;
-  max-width: 600px;         /* ajustează cât vrei */
-  margin: 0 auto;           /* centrare */
+  max-width: 600px;         
+  margin: 0 auto;           
 }
 
 .about-main {
-  width: 100%;              /* imaginea principală */
+  width: 100%;              
   height: auto;
   border-radius: 10px;
   display: block;
 }
 
 .about-overlay {
-  position: absolute;       /* suprapune peste imaginea principală */
-  top: 50px;                /* cât să fie jos față de top */
-  left: 50px;               /* cât să fie spre stânga */
-  width: 200px;             /* dimensiune mai mică */
+  position: absolute;       
+  top: 50px;               
+  left: 50px;               
+  width: 200px;             
   height: auto;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
@@ -87,41 +87,41 @@ main {
 
 header {
   display: flex;
-  justify-content: space-between; /* logo în stânga, meniu în dreapta */
-  align-items: center;            /* centrează vertical */
+  justify-content: space-between; 
+  align-items: center;           
   padding: 20px;
   background: #495e57;
   color: white;
 }
 
 nav ul {
-  display: flex;       /* face lista orizontală */
-  gap: 20px;           /* spațiu între iteme */
-  list-style: none;    /* elimină bulinele */
+  display: flex;       
+  gap: 20px;          
+  list-style: none;  
   margin: 0;
   padding: 0;
 }
 
 nav ul li {
-  cursor: pointer;     /* schimbă cursorul la hover */
+  cursor: pointer;     
 }
 
 nav ul li:hover {
-  color: #f4ce14; /* schimbă culoarea când treci cu mouse-ul */
+  color: #f4ce14; 
 }
 
 /* Container pentru carduri */
 .cards {
-  display: flex;            /* așază cardurile în linie */
-  flex-wrap: wrap;          /* pe mobil se mută jos */
-  gap: 20px;                /* spațiu între carduri */
-  justify-content: center;  /* center pe linie */
+  display: flex;            /* cards in line */
+  flex-wrap: wrap;         
+  gap: 20px;                
+  justify-content: center;  
 }
 
 /* Card individual */
 .card {
-  flex: 1 1 250px;          /* lățime flexibilă, minim 250px */
-  max-width: 300px;         /* nu trece de 300px */
+  flex: 1 1 250px;          
+  max-width: 300px;         
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -132,22 +132,22 @@ nav ul li:hover {
   background-color: #fff;
 }
 
-/* Imagini card */
+/* Imgs card */
 .card img {
-  width: 100%;             /* ocupă lățimea cardului */
-  height: 200px;           /* înălțime uniformă */
-  object-fit: cover;       /* decupează proporțional */
+  width: 100%;             
+  height: 200px;           
+  object-fit: cover;    
   border-radius: 10px;
 }
 
 .footer {
   display: flex;
-  flex-wrap: wrap;           /* se adaptează pe mobil */
+  flex-wrap: wrap;           /*  mobil adjustment */
   justify-content: space-between;
   padding: 40px;
   background-color: #495e57;
   color: white;
-  gap: 20px;                 /* spațiu între coloane */
+  gap: 20px;                
 }
 
 .footer-left {
@@ -156,14 +156,14 @@ nav ul li:hover {
 }
 
 .footer-logo {
-  width: 100px;              /* logo mic */
+  width: 100px;            
   height: auto;
   border-radius: 5px;
 }
 
 .footer-column {
   flex: 1;
-  min-width: 150px;          /* fiecare coloana are minim 150px */
+  min-width: 150px;          
 }
 
 .footer-column h4 {
@@ -230,8 +230,8 @@ nav ul li:hover {
 }
 
 .footer-column i {
-  margin-right: 8px;      /* spațiu între icon și text */
-  color: #f4ce14;         /* culoare iconiță */
+  margin-right: 8px;      
+  color: #f4ce14;         
 }
 .footer-column p {
   display: flex;
@@ -239,7 +239,7 @@ nav ul li:hover {
   gap: 5px;
 }
 
-/* Header-ul secțiunii Specials */
+/* Header Specials */
 .specials-header {
   display: flex;
   justify-content: space-between;
@@ -266,37 +266,37 @@ nav ul li:hover {
   font-size: 1.2rem;
   font-weight: bold;
   color: white;
-  background: linear-gradient(90deg, #f4ce14, #f7d13f); /* gradient galben */
+  background: linear-gradient(90deg, #f4ce14, #f7d13f); 
   border: none;
-  border-radius: 50px; /* colțuri rotunjite mai mari */
+  border-radius: 50px; 
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
 
 .hero-text button:hover {
-  transform: translateY(-3px); /* efect de ridicare */
+  transform: translateY(-3px); 
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   background: linear-gradient(90deg, #e0b800, #f4ce14); /* gradient hover */
 }
 
-/* Buton Order a delivery din carduri Specials */
+/* Buton Order a delivery in card Specials */
 .card button {
   padding: 10px 20px;
   font-size: 1rem;
   font-weight: 600;
-  color: #495e57;                 /* culoare text */
-  background-color: #f4f4f4;       /* fundal deschis */
-  border: 2px solid #ee9972;       /* contur galben */
-  border-radius: 25px;             /* colțuri rotunjite */
+  color: #495e57;                
+  background-color: #f4f4f4;     
+  border: 2px solid #ee9972;       
+  border-radius: 25px;            
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .card button:hover {
-  background-color: #fbdabd;       /* schimbă fundal la hover */
-  color: white;                     /* text alb */
-  transform: translateY(-2px);      /* efect ușor ridicare */
+  background-color: #fbdabd;     
+  color: white;                   
+  transform: translateY(-2px);     
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -309,7 +309,7 @@ nav ul li:hover {
 
 
 
-/* Buton Order a delivery din carduri */
+/* Buton Order a delivery */
 .card .order-btn {
   padding: 10px 20px;
   font-size: 1rem;
@@ -329,20 +329,20 @@ nav ul li:hover {
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
-/* Optional: iconiță truck în Order a delivery */
+/* icon truck în Order a delivery */
 .card .order-btn i {
   margin-right: 8px;
 }
 
-/* Header secțiune Specials */
+/* Header Specials */
 .specials-header {
   display: flex;
   align-items: center;
-  gap: 15px;              /* spațiu între titlu și buton */
+  gap: 15px;              
   margin-bottom: 20px;
 }
 
-/* Buton Online Menu – stilizat, lângă titlu */
+/* Button Online Menu  */
 .online-menu-btn {
   padding: 12px 25px;
   font-size: 1.05rem;
@@ -363,39 +363,39 @@ nav ul li:hover {
   transform: translateY(-2px);
 }
 
-/* Efect hover pentru cardurile Specials și Testimonials */
+/* Efect hover Specials and Testimonials */
 .cards .card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* tranziție lină */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
   cursor: pointer;
 }
 
 .cards .card:hover {
-  transform: translateY(-10px) scale(1.03); /* săritura + ușoară mărire */
-  box-shadow: 0 15px 25px rgba(0,0,0,0.2); /* umbră mai pronunțată */
+  transform: translateY(-10px) scale(1.03); 
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2); 
 }
 
-/* Testimonials hover mai accentuat */
+/* Testimonials hover  */
 .testimonials .card:hover {
   transform: translateY(-15px) scale(1.05);
   box-shadow: 0 20px 30px rgba(0,0,0,0.25);
 }
 
-/* Stilizare linkuri Doormat Navigation */
+/*  Doormat Navigation */
 .footer-column a {
-  text-decoration: none; /* elimină underline-ul */
-  color: inherit;        /* preia culoarea textului părinte */
+  text-decoration: none; 
+  color: inherit;        
   transition: color 0.3s ease;
 }
 
 .footer-column a:hover {
-  color: #f4ce14;       /* culoare hover (optional) */
+  color: #f4ce14;       
 }
 
-/* Header secțiune Specials */
+/* Header  Specials */
 .specials-header {
   display: flex;
   align-items: center;
-  gap: 15px;              /* spațiu între titlu și Online Menu */
+  gap: 15px;              
   margin-bottom: 20px;
 }
 
@@ -440,7 +440,7 @@ nav ul li:hover {
   box-shadow: 0 15px 25px rgba(0,0,0,0.2);
 }
 
-/* Stele rating */
+/* Stars rating */
 .card .rating {
   color: #f4ce14;
   margin: 5px 0;
@@ -448,7 +448,7 @@ nav ul li:hover {
   gap: 2px;
 }
 
-/* Buton Order a delivery */
+/* Button Order a delivery */
 .card .order-btn {
   padding: 10px 20px;
   font-size: 1rem;
@@ -474,16 +474,16 @@ nav ul li:hover {
 .booking-form {
   display: flex;
   flex-direction: column;
-  gap: 15px;            /* spațiu între câmpuri */
-  margin-top: 50px;     /* spațiu între textul de deasupra și formular */
-  max-width: 400px;     /* dimensiune formular */
+  gap: 15px;            
+  margin-top: 50px;     
+  max-width: 400px;     
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* Toate inputurile din booking-form */
+
 .booking-form input,
 .booking-form select,
 .booking-form textarea {
@@ -491,10 +491,10 @@ nav ul li:hover {
   font-size: 1rem;
   border: 2px solid #ccc;
   border-radius: 10px;
-  transition: all 0.3s ease; /* tranziție lină */
+  transition: all 0.3s ease; 
 }
 
-/* Când utilizatorul face click / focus */
+/* User click / focus */
 .booking-form input:focus,
 .booking-form select:focus,
 .booking-form textarea:focus {
@@ -503,7 +503,7 @@ nav ul li:hover {
   transform: scale(1.02);
 }
 
-/* Dacă input-ul e invalid */
+/* if input  invalid */
 .booking-form input:invalid {
   animation: shake 0.3s;
 }
