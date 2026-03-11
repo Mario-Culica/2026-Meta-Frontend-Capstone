@@ -15,4 +15,4 @@ The web app includes:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/little-lemon.git
+   git clone https://github.com/Mario-Culica/2026-Meta-Frontend-Capstone.git
