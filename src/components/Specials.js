@@ -5,7 +5,7 @@ const specials = [
   { 
     name: "Greek Salad", 
     price: "$12.99", 
-    desc: "A refreshing mix of crisp romaine lettuce, juicy tomatoes, cucumbers, red onions, Kalamata olives, and feta cheese, drizzled with our house-made olive oil and lemon dressing. Perfect for a light, Mediterranean bite.", 
+    desc: "A refreshing mix of crisp romaine lettuce, juicy tomatoes, cucumbers, red onions, Kalamata olives, and feta cheese, drizzled with our house-made olive oil and lemon dressing.", 
     img: "/images/salad.jpg", 
     rating: 4.5 
   },
